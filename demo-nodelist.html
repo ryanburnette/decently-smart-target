@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>decently-smart-target demo</title>
+  </head>
+
+  <body>
+    <p>
+      <a href="https://google.com"
+        >This is a link to Google. It should open in a new tab.</a
+      >
+    </p>
+    <p>
+      <a href="/demo.html"
+        >This is a relative link, it should not open in a new tab.</a
+      >
+    </p>
+    <p>
+      <a href="http://localhost:8080/demo.html"
+        >This is a link to the home hostname, it should not open in a new
+        tab.</a
+      >
+    </p>
+
+    <script src="/index.js"></script>
+    <script>
+      decentlySmartTarget(document.querySelectorAll('a'));
+    </script>
+  </body>
+</html>

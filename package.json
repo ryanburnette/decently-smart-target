@@ -1,0 +1,20 @@
+{
+  "name": "decently-smart-target",
+  "version": "1.0.0",
+  "description": "A library for setting up that open in a new window logic.",
+  "main": "index.js",
+  "keywords": ["target", "blank", "new", "window"],
+  "author": "Ryan Burnette <ryan.burnette@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ryanburnette/decently-smart-target/issues"
+  },
+  "homepage": "https://github.com/ryanburnette/decently-smart-target",
+  "devDependencies": {
+    "http-server": "^0.11.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ryanburnette/decently-smart-target.git"
+  }
+}
